@@ -5,7 +5,7 @@ This repository contains the starting code for the SMP forecasting project. The 
 ## Project Structure
 
 - `data/`: Raw and processed data files
-- `notebooks/`: Jupyter notebooks for exploration and analysis
+- `notebooks/`: Jupyter notebooks for exploration and analysis .
 - `src/`: Source code for the project
 - `tests/`: Unit tests
 
