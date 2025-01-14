@@ -9,7 +9,7 @@ def extractDate(file_path):
     df['Tarih'] = pd.to_datetime(df['Tarih'], format='%d/%m/%Y %H:%M')
 
     # Extract datetime features
-    df['Year'] = df['Tarih'].dt.year #bu kötü etkiliyor olabilir
+    df['Year'] = df['Tarih'].dt.year #This may effect negatively the accuracy of model. Consider!
     df['Month'] = df['Tarih'].dt.month
     df['Day'] = df['Tarih'].dt.day
     df['Hour'] = df['Tarih'].dt.hour
